@@ -17,6 +17,7 @@ def download_album(jm_album_id, option=None):
     print(album.keywords)
     jm_debug('album',
              f'本子获取成功: [{album.id}], '
+             f'keywords: [{album.keywords}], '
              f'作者: [{album.author}], '
              f'章节数: [{len(album)}]'
              f'标题: [{album.title}], '
